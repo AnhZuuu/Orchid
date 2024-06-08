@@ -1,0 +1,19 @@
+Các Method cho API Enpoint orchid: 
+   
+	get: 	/orchids/fetchAll
+  
+  	post: 	/orchids/insert
+  
+   	put: 	/orchids/update/:orchid_id
+ 
+	delete: 	/orchids/delete/:orchid_id
+----------------------------
+Config DB trong config/db.config.js
+------------------------------
+Các dependencies:
+    "express": "^4.18.2",
+    "mssql": "^10.0.2"
+-------------------------------
+Run app:
+1. Gõ lệnh npm install để cài dependencies
+2. Gõ npm start
